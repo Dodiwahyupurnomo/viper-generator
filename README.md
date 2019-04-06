@@ -32,6 +32,6 @@ and follow the instructions
 
 1. File -> New -> Project 
 2. Scroll down to your template group
-![alt template group](https://ibb.co/2qzNJ5D)
+![alt template group](https://raw.githubusercontent.com/Dodiwahyupurnomo/viper-generator/master/ss/template%20group.png)
 3. Fill data in this form 
-![alt form project](https://ibb.co/0J27S26)
+![alt form project](https://raw.githubusercontent.com/Dodiwahyupurnomo/viper-generator/master/ss/form.png)
