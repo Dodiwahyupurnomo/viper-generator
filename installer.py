@@ -28,7 +28,7 @@ def help():
 
 def strat_installation(listenner):
     if len(listenner) > 1 and listenner[1] != None and len(listenner[1]) > 3 and re.match("[a-zA-Z]+",str(listenner[1])):
-        template_builder = TemplateBuilder(str(listenner))
+        template_builder = TemplateBuilder(str(listenner[1]))
         template_builder.create()
     else:
         print('Please enter your template group name. The template group name must be more than 3 characters and only alphabetical characters.')
