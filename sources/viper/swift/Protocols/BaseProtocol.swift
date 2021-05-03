@@ -8,18 +8,18 @@
 
 import UIKit
 
-protocol ___VARIABLE_viperModuleName___ViewProtocol: class {
+protocol ___VARIABLE_viperModuleName___ViewProtocol: AnyObject {
     var presenter : ___VARIABLE_viperModuleName___PresenterProtocol? {get set}
     //Add here your method to communication PRESENTER -> ViewControler
 
 }
 
-protocol ___VARIABLE_viperModuleName___WireFrameProtocol:class {
+protocol ___VARIABLE_viperModuleName___WireFrameProtocol: AnyObject {
     //Add here your methods for communication PRESENTER -> WIREFRAME
 
 }
 
-protocol ___VARIABLE_viperModuleName___PresenterProtocol: class {
+protocol ___VARIABLE_viperModuleName___PresenterProtocol: AnyObject {
     var view : ___VARIABLE_viperModuleName___ViewProtocol? {get set}
     var interactor : ___VARIABLE_viperModuleName___InteractorInputProtocol? {get set}
     var wireFrame : ___VARIABLE_viperModuleName___WireFrameProtocol? {get set}
@@ -27,18 +27,18 @@ protocol ___VARIABLE_viperModuleName___PresenterProtocol: class {
 
 }
 
-protocol ___VARIABLE_viperModuleName___InteractorOutputProtocol: class {
+protocol ___VARIABLE_viperModuleName___InteractorOutputProtocol: AnyObject {
     //Add here your methods to communication INTERACTOR -> Presenter
 }
 
-protocol ___VARIABLE_viperModuleName___InteractorInputProtocol: class {
+protocol ___VARIABLE_viperModuleName___InteractorInputProtocol: AnyObject {
     var presenter : ___VARIABLE_viperModuleName___InteractorOutputProtocol? {get set}
     var APIDataManager : ___VARIABLE_viperModuleName___APIDataManagerInputProtocol? {get set}
     var localDataManager : ___VARIABLE_viperModuleName___LocalDataManagerInputProtocol? {get set}
     //Add here your method to communication PRESENTER -> Interactor
 }
 
-protocol ___VARIABLE_viperModuleName___DataManagerInputProtocol: class {
+protocol ___VARIABLE_viperModuleName___DataManagerInputProtocol: AnyObject {
     //Add here your method to comminication INTERACTOR -> DataManager
 }
 
